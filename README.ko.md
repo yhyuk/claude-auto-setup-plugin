@@ -376,7 +376,7 @@ npm run typecheck      # 타입 체크 (출력 없음)
 
 ## 라이선스
 
-MIT © [Your Name]
+MIT © yhyuk
 
 ## 감사의 말
 

@@ -1,0 +1,12 @@
+{
+  "name": "claude-auto-setup",
+  "version": "1.0.0",
+  "description": "Interactive .claude/ folder setup through deep interview questions",
+  "author": "Your Name",
+  "commands": {
+    "auto-setup": {
+      "description": "Interactive .claude/ folder setup with deep interview questions",
+      "file": "commands/auto-setup.md"
+    }
+  }
+}

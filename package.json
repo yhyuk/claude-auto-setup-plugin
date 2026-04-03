@@ -4,6 +4,9 @@
   "description": "Claude Code plugin to automatically set up .claude/ folder structure based on interactive project analysis",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "claude-setup": "./dist/bin/cli.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
@@ -11,7 +14,10 @@
     "test:coverage": "vitest run --coverage",
     "lint": "eslint src --ext .ts",
     "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "cli:analyze": "ts-node bin/cli.ts analyze",
+    "cli:generate": "ts-node bin/cli.ts generate",
+    "dev": "ts-node bin/cli.ts"
   },
   "keywords": [
     "claude-code",
@@ -23,20 +29,21 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "yaml": "^2.4.0",
     "fs-extra": "^11.2.0",
-    "glob": "^10.3.0"
+    "glob": "^10.3.0",
+    "yaml": "^2.4.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
     "@types/fs-extra": "^11.0.4",
-    "vitest": "^1.2.0",
-    "@vitest/coverage-v8": "^1.2.0",
-    "typescript": "^5.3.0",
-    "eslint": "^8.56.0",
+    "@types/node": "^20.11.0",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
-    "prettier": "^3.2.0"
+    "@vitest/coverage-v8": "^1.2.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
   },
   "engines": {
     "node": ">=18.0.0"

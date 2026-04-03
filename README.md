@@ -376,7 +376,7 @@ Project Analysis → Template Selection → Variable Population → Validation �
 
 ## License
 
-MIT © [Your Name]
+MIT © yhyuk
 
 ## Acknowledgments
 
