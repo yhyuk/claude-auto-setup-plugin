@@ -1,6 +1,6 @@
 {
   "name": "claude-auto-setup-plugin",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Claude Code plugin to automatically set up .claude/ folder structure based on interactive project analysis",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
