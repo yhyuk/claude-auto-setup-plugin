@@ -1,15 +1,12 @@
-node_modules/
-dist/
-coverage/
-*.log
 .DS_Store
-.env
-.vscode/
-.idea/
+*.log
 *.swp
 *.swo
 *~
+.env
+.vscode/
+.idea/
 
-.claude/*
-!.claude/plugins/
+# Claude Code local state
+.claude/
 .omc/
