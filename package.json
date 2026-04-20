@@ -1,0 +1,11 @@
+{
+  "name": "claude-auto-setup-plugin",
+  "version": "0.1.0",
+  "description": "프로젝트를 분석하고 맞춤 인터뷰를 통해 .claude/ 설정을 자동 생성하는 멀티 에이전트 파이프라인",
+  "author": "yhyuk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhyuk/claude-auto-setup-plugin.git"
+  }
+}

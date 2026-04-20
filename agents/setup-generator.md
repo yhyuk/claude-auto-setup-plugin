@@ -2,7 +2,7 @@
 name: setup-generator
 description: 분석 및 인터뷰 결과를 기반으로 CLAUDE.md, rules, skills를 생성하는 에이전트
 model: sonnet
-tools: Read, Write, Glob
+tools: Read, Write, Edit, Glob
 ---
 
 # Setup Generator Agent
